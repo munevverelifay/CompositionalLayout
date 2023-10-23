@@ -3,4 +3,198 @@
    uuid = "DC08EE5D-C0EE-409D-840F-BEE8A5B86A32"
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "21288770-DF85-44C5-A0E9-47C7610DD785"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CompositionalLayout/View/Cells/RecentItemViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "cellData"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F8A1DF31-AC50-47D8-93E3-0B0D4CC674E9"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CompositionalLayout/View/Cells/RecentItemViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "74"
+            endingLineNumber = "74"
+            landmarkName = "setUpConstrains()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F8A1DF31-AC50-47D8-93E3-0B0D4CC674E9 - c0981c882f65b3b9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CompositionalLayout.RecentItemViewCell.setUpConstrains() -&gt; ()"
+                  moduleName = "CompositionalLayout"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/elifay/Desktop/CompositionalLayout/CompositionalLayout/View/Cells/RecentItemViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "75"
+                  endingLineNumber = "75"
+                  offsetFromSymbolStart = "1556">
+               </Location>
+               <Location
+                  uuid = "F8A1DF31-AC50-47D8-93E3-0B0D4CC674E9 - c0981c882f65b3b9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CompositionalLayout.RecentItemViewCell.setUpConstrains() -&gt; ()"
+                  moduleName = "CompositionalLayout"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/elifay/Desktop/CompositionalLayout/CompositionalLayout/View/Cells/RecentItemViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "75"
+                  endingLineNumber = "75"
+                  offsetFromSymbolStart = "1552">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "998702EC-DC24-4273-BC02-ECF264234FB4"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CompositionalLayout/View/Cells/RecentItemViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "75"
+            endingLineNumber = "75"
+            landmarkName = "setUpConstrains()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "998702EC-DC24-4273-BC02-ECF264234FB4 - c0981c882f65b39a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CompositionalLayout.RecentItemViewCell.setUpConstrains() -&gt; ()"
+                  moduleName = "CompositionalLayout"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/elifay/Desktop/CompositionalLayout/CompositionalLayout/View/Cells/RecentItemViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "76"
+                  endingLineNumber = "76"
+                  offsetFromSymbolStart = "1752">
+               </Location>
+               <Location
+                  uuid = "998702EC-DC24-4273-BC02-ECF264234FB4 - c0981c882f65b39a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CompositionalLayout.RecentItemViewCell.setUpConstrains() -&gt; ()"
+                  moduleName = "CompositionalLayout"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/elifay/Desktop/CompositionalLayout/CompositionalLayout/View/Cells/RecentItemViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "76"
+                  endingLineNumber = "76"
+                  offsetFromSymbolStart = "1748">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "969B4B58-E759-4B1D-8D01-71BE849ED3BD"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CompositionalLayout/View/Cells/RecentItemViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "76"
+            endingLineNumber = "76"
+            landmarkName = "setUpConstrains()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "969B4B58-E759-4B1D-8D01-71BE849ED3BD - c0981c882f65b37b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CompositionalLayout.RecentItemViewCell.setUpConstrains() -&gt; ()"
+                  moduleName = "CompositionalLayout"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/elifay/Desktop/CompositionalLayout/CompositionalLayout/View/Cells/RecentItemViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "77"
+                  endingLineNumber = "77"
+                  offsetFromSymbolStart = "1920">
+               </Location>
+               <Location
+                  uuid = "969B4B58-E759-4B1D-8D01-71BE849ED3BD - c0981c882f65b37b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CompositionalLayout.RecentItemViewCell.setUpConstrains() -&gt; ()"
+                  moduleName = "CompositionalLayout"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/elifay/Desktop/CompositionalLayout/CompositionalLayout/View/Cells/RecentItemViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "77"
+                  endingLineNumber = "77"
+                  offsetFromSymbolStart = "1916">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6934EF74-C436-4240-8357-E351BC02009F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CompositionalLayout/View/Cells/RecentItemViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "89"
+            endingLineNumber = "89"
+            landmarkName = "setRestaurantInfoLabel(withRating:description:starFontSize:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "83A48381-F41D-4BBD-8009-1B83A6EE3699"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CompositionalLayout/View/Cells/RecentItemViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "82"
+            endingLineNumber = "82"
+            landmarkName = "setRestaurantTagLabel(restaurantCategoryTags:categoryTags:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>

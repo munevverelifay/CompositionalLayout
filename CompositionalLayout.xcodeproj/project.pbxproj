@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F784446E2AE6978F003D4B65 /* Extension+CALayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F784446D2AE6978F003D4B65 /* Extension+CALayer.swift */; };
+		F78444702AE698C4003D4B65 /* Extension+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F784446F2AE698C4003D4B65 /* Extension+UIView.swift */; };
+		F78444722AE69908003D4B65 /* WindowConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78444712AE69908003D4B65 /* WindowConstant.swift */; };
 		F7D3E4122ADDA31500724745 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D3E4112ADDA31500724745 /* AppDelegate.swift */; };
 		F7D3E4142ADDA31500724745 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D3E4132ADDA31500724745 /* SceneDelegate.swift */; };
 		F7D3E4162ADDA31500724745 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D3E4152ADDA31500724745 /* ViewController.swift */; };
@@ -25,9 +28,13 @@
 		F7D3E4492ADDF49C00724745 /* RecentItemViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D3E4482ADDF49C00724745 /* RecentItemViewCell.swift */; };
 		F7E9B87B2AE1558300E1E6D5 /* AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E9B87A2AE1558300E1E6D5 /* AppColors.swift */; };
 		F7E9B87D2AE1559E00E1E6D5 /* AppFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E9B87C2AE1559E00E1E6D5 /* AppFonts.swift */; };
+		F7EF0EE62AE55D18001436FE /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F7E9B89E2AE2987C00E1E6D5 /* Inter-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F784446D2AE6978F003D4B65 /* Extension+CALayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+CALayer.swift"; sourceTree = "<group>"; };
+		F784446F2AE698C4003D4B65 /* Extension+UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UIView.swift"; sourceTree = "<group>"; };
+		F78444712AE69908003D4B65 /* WindowConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowConstant.swift; sourceTree = "<group>"; };
 		F7D3E40E2ADDA31500724745 /* CompositionalLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CompositionalLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7D3E4112ADDA31500724745 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F7D3E4132ADDA31500724745 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -62,6 +69,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F784446C2AE6976C003D4B65 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				F784446D2AE6978F003D4B65 /* Extension+CALayer.swift */,
+				F784446F2AE698C4003D4B65 /* Extension+UIView.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		F7D3E4052ADDA31500724745 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +97,7 @@
 		F7D3E4102ADDA31500724745 /* CompositionalLayout */ = {
 			isa = PBXGroup;
 			children = (
+				F784446C2AE6976C003D4B65 /* Extension */,
 				F7E9B8A02AE2996600E1E6D5 /* Model */,
 				F7E9B8A12AE2996C00E1E6D5 /* View */,
 				F7E9B8A22AE2997200E1E6D5 /* Controllers */,
@@ -130,6 +147,7 @@
 			children = (
 				F7E9B87A2AE1558300E1E6D5 /* AppColors.swift */,
 				F7E9B87C2AE1559E00E1E6D5 /* AppFonts.swift */,
+				F78444712AE69908003D4B65 /* WindowConstant.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -237,6 +255,7 @@
 			files = (
 				F7D3E41E2ADDA31600724745 /* LaunchScreen.storyboard in Resources */,
 				F7D3E41B2ADDA31600724745 /* Assets.xcassets in Resources */,
+				F7EF0EE62AE55D18001436FE /* Inter-Regular.ttf in Resources */,
 				F7D3E4192ADDA31500724745 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -249,6 +268,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F7D3E4162ADDA31500724745 /* ViewController.swift in Sources */,
+				F78444722AE69908003D4B65 /* WindowConstant.swift in Sources */,
+				F78444702AE698C4003D4B65 /* Extension+UIView.swift in Sources */,
 				F7D3E4122ADDA31500724745 /* AppDelegate.swift in Sources */,
 				F7D3E42D2ADDA93800724745 /* ViewLayoutManager.swift in Sources */,
 				F7D3E4492ADDF49C00724745 /* RecentItemViewCell.swift in Sources */,
@@ -259,6 +280,7 @@
 				F7D3E43D2ADDBFE900724745 /* TopBannerCollectionViewCell.swift in Sources */,
 				F7D3E4372ADDB9D600724745 /* MostPopularListModel.swift in Sources */,
 				F7D3E4432ADDF15000724745 /* HeaderView.swift in Sources */,
+				F784446E2AE6978F003D4B65 /* Extension+CALayer.swift in Sources */,
 				F7D3E4392ADDBB6B00724745 /* RecentItemsListModel.swift in Sources */,
 				F7E9B87B2AE1558300E1E6D5 /* AppColors.swift in Sources */,
 				F7D3E4352ADDB77E00724745 /* PopularRestaurantsListModel.swift in Sources */,
