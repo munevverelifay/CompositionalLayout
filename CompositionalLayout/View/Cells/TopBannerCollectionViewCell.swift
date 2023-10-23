@@ -5,7 +5,6 @@
 //  Created by Münevver Elif Ay on 16.10.2023.
 //
 
-import Foundation
 import UIKit
 
 class TopBannerCollectionViewCell: UICollectionViewCell {
@@ -16,7 +15,7 @@ class TopBannerCollectionViewCell: UICollectionViewCell {
             bannerImage.image = UIImage(named: cellData.image)
         }
     }
-    let bannerImage : UIImageView = {
+    private let bannerImage : UIImageView = {
         let bannerImage = UIImageView()
         bannerImage.translatesAutoresizingMaskIntoConstraints = false
         bannerImage.backgroundColor = .clear

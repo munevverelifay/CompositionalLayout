@@ -5,7 +5,6 @@
 //  Created by Münevver Elif Ay on 17.10.2023.
 //
 
-import Foundation
 import UIKit
 
 class HeaderView: UICollectionReusableView {
@@ -20,7 +19,7 @@ class HeaderView: UICollectionReusableView {
               title.font = titleFont
           }
       }
-    let title: UILabel = {
+    private let title: UILabel = {
         let title = UILabel()
         title.translatesAutoresizingMaskIntoConstraints = false
         title.textColor = AppColors.titleColor

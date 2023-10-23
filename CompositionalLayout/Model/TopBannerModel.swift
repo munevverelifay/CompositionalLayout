@@ -5,8 +5,6 @@
 //  Created by Münevver Elif Ay on 16.10.2023.
 //
 
-import Foundation
-
 struct TopBannerModel {
     let image : String
 }

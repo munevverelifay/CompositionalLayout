@@ -5,7 +5,6 @@
 //  Created by Münevver Elif Ay on 17.10.2023.
 //
 
-import Foundation
 import UIKit
 
 class PopularRestaurantsListCell: UICollectionViewCell {
@@ -19,26 +18,26 @@ class PopularRestaurantsListCell: UICollectionViewCell {
             restaurantTagLabel.text = cellData.tags
         }
     }
-    lazy var restaurantImgCover: UIImageView = {
+    private let restaurantImgCover: UIImageView = {
         let restaurantImgCover = UIImageView()
         restaurantImgCover.translatesAutoresizingMaskIntoConstraints = false
         restaurantImgCover.contentMode = .scaleAspectFill
         restaurantImgCover.clipsToBounds = true
         return restaurantImgCover
     }()
-    lazy var restaurantName: UILabel = {
+    private let restaurantName: UILabel = {
         let restaurantName = UILabel()
         restaurantName.translatesAutoresizingMaskIntoConstraints = false
         restaurantName.font = AppFonts.titleFont
         restaurantName.textColor = AppColors.titleColor
         return restaurantName
     }()
-    let restaurantInfoLabel: UILabel = {
+    private let restaurantInfoLabel: UILabel = {
         let restaurantInfoLabel = UILabel()
         restaurantInfoLabel.translatesAutoresizingMaskIntoConstraints = false
         return restaurantInfoLabel
     }()
-    let restaurantTagLabel: UILabel = {
+    private let restaurantTagLabel: UILabel = {
         let restaurantTagLabel = UILabel()
         restaurantTagLabel.translatesAutoresizingMaskIntoConstraints = false
         restaurantTagLabel.font = AppFonts.secondaryFont

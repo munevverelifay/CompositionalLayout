@@ -5,7 +5,6 @@
 //  Created by Münevver Elif Ay on 17.10.2023.
 //
 
-
 import UIKit
 
 class MostPopularListViewCell: UICollectionViewCell {
@@ -18,7 +17,7 @@ class MostPopularListViewCell: UICollectionViewCell {
             subtitle.attributedText = setRestaurantInfoLabel(withRating: cellData.rating, description: cellData.categoryTags, restaurantCategoryTags: cellData.restaurantCategoryTags, starFontSize: 12)
         }
     }
-    let restaurantImage: UIImageView = {
+    private let restaurantImage: UIImageView = {
         let restaurantImage = UIImageView()
         restaurantImage.translatesAutoresizingMaskIntoConstraints = false
         restaurantImage.contentMode = .scaleAspectFill
@@ -26,7 +25,7 @@ class MostPopularListViewCell: UICollectionViewCell {
         restaurantImage.layer.cornerRadius = 20
         return restaurantImage
     }()
-    let title: UILabel = {
+    private let title: UILabel = {
         let title = UILabel()
         title.translatesAutoresizingMaskIntoConstraints = false
         title.text = "Restaurant Name"
@@ -35,7 +34,7 @@ class MostPopularListViewCell: UICollectionViewCell {
         title.textAlignment = .left
         return title
     }()
-    let subtitle: UILabel = {
+    private let subtitle: UILabel = {
         let subtitle = UILabel()
         subtitle.translatesAutoresizingMaskIntoConstraints = false
         subtitle.text = "Italian-American"

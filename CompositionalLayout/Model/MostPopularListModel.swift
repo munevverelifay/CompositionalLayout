@@ -5,8 +5,6 @@
 //  Created by Münevver Elif Ay on 16.10.2023.
 //
 
-import Foundation
-
 struct MostPopularListModel {
     let coverImage: String
     let restaurantName: String
@@ -14,7 +12,6 @@ struct MostPopularListModel {
     let categoryTags: String
     let rating: Float
 }
-
 let mostPopularListMockData = [
     MostPopularListModel(coverImage: "caféDeBambaa", restaurantName: "Café De Bambaa", restaurantCategoryTags: "Café", categoryTags: "Italian-American", rating: 4.9),
     MostPopularListModel(coverImage: "burgerbyBella", restaurantName: "Burger By Bella", restaurantCategoryTags: "Café", categoryTags: "Western Food", rating: 4.9),

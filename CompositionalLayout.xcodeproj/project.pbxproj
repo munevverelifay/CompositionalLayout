@@ -101,7 +101,7 @@
 				F7E9B8A02AE2996600E1E6D5 /* Model */,
 				F7E9B8A12AE2996C00E1E6D5 /* View */,
 				F7E9B8A22AE2997200E1E6D5 /* Controllers */,
-				F7E9B8A32AE2997F00E1E6D5 /* Utilities */,
+				F7E9B8A32AE2997F00E1E6D5 /* Helpers */,
 				F7E9B8A42AE2998A00E1E6D5 /* Font */,
 				F7D3E4112ADDA31500724745 /* AppDelegate.swift */,
 				F7D3E4132ADDA31500724745 /* SceneDelegate.swift */,
@@ -142,14 +142,14 @@
 			name = Controllers;
 			sourceTree = "<group>";
 		};
-		F7E9B8A32AE2997F00E1E6D5 /* Utilities */ = {
+		F7E9B8A32AE2997F00E1E6D5 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
 				F7E9B87A2AE1558300E1E6D5 /* AppColors.swift */,
 				F7E9B87C2AE1559E00E1E6D5 /* AppFonts.swift */,
 				F78444712AE69908003D4B65 /* WindowConstant.swift */,
 			);
-			path = Utilities;
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 		F7E9B8A42AE2998A00E1E6D5 /* Font */ = {

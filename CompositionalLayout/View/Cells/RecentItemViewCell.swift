@@ -5,8 +5,6 @@
 //  Created by Münevver Elif Ay on 17.10.2023.
 //
 
-import Foundation
-
 import UIKit
 
 class RecentItemViewCell: UICollectionViewCell {
@@ -22,7 +20,7 @@ class RecentItemViewCell: UICollectionViewCell {
             restaurantInfoLabel.attributedText = setRestaurantInfoLabel(withRating: cellData.rating, description: cellData.ratingsNumber, starFontSize: 12)
         }
     }
-    lazy var restaurantImgCover: UIImageView = {
+    private let restaurantImgCover: UIImageView = {
         let restaurantImgCover = UIImageView()
         restaurantImgCover.translatesAutoresizingMaskIntoConstraints = false
         restaurantImgCover.contentMode = .scaleAspectFill
@@ -31,19 +29,19 @@ class RecentItemViewCell: UICollectionViewCell {
         return restaurantImgCover
     }()
 
-    lazy var restaurantNameLabel: UILabel = {
+    private let restaurantNameLabel: UILabel = {
         let restaurantNameLabel = UILabel()
         restaurantNameLabel.translatesAutoresizingMaskIntoConstraints = false
         restaurantNameLabel.font = UIFont.systemFont(ofSize: 15,weight: .bold)
         restaurantNameLabel.textColor = .label
         return restaurantNameLabel
     }()
-    let restaurantInfoLabel: UILabel = {
+    private let restaurantInfoLabel: UILabel = {
         let restaurantInfoLabel = UILabel()
         restaurantInfoLabel.translatesAutoresizingMaskIntoConstraints = false
         return restaurantInfoLabel
     }()
-    let restaurantTagLabel: UILabel = {
+    private let restaurantTagLabel: UILabel = {
         let restaurantTagLabel = UILabel()
         restaurantTagLabel.translatesAutoresizingMaskIntoConstraints = false
         restaurantTagLabel.font = UIFont.systemFont(ofSize: 13,weight: .regular)

@@ -8,7 +8,7 @@
 import UIKit
 
 class ViewController: UIViewController {
-    let navigationView : UIView = {
+    private let navigationView : UIView = {
         let navigationView = UIView()
         navigationView.translatesAutoresizingMaskIntoConstraints = false
         navigationView.backgroundColor = .systemBackground
@@ -29,7 +29,7 @@ class ViewController: UIViewController {
         return collectionView
     }()
     var viewLayoutManagerDelegate: ViewLayoutManagerDelegate
-     init(viewLayoutManagerDelegate: ViewLayoutManagerDelegate) {
+    init(viewLayoutManagerDelegate: ViewLayoutManagerDelegate) {
          self.viewLayoutManagerDelegate = viewLayoutManagerDelegate
          super.init(nibName: nil, bundle: nil)
      }
