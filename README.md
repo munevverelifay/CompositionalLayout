@@ -1,7 +1,5 @@
 # CompositionalLayout
 
-## 💻 Keyword and Features
-
 - 👩‍💻 Programmatic Layout
 - 👩‍💻 Protocol-Oriented Programming
 - 👩‍💻 UICollectionViewCompositionalLayout
