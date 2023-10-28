@@ -1,7 +1,6 @@
 # CompositionalLayout
 
 - 👩‍💻 Programmatic Layout
-- 👩‍💻 Protocol-Oriented Programming
 - 👩‍💻 UICollectionViewCompositionalLayout
 - 👩‍💻 Custom CollectionViewCell
 - 👩‍💻 Custom Extensions
