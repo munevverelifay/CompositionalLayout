@@ -3,7 +3,7 @@
 </h1>
 
 ## Description
-<p>This app is the final project of the iOS Bootcamp from Coderspace and Pazarama. The project uses the OMDb Film API to offer different functions and features..</p>
+<p>Coderspace and Pazarama's iOS Bootcamp assignment.</p>
 
 
 ## Technologies and Libraries
