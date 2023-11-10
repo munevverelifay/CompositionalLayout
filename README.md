@@ -1,5 +1,12 @@
-# CompositionalLayout
+<h1 align="center">
+     CompositionalLayout
+</h1>
 
+## Description
+<p>This app is the final project of the iOS Bootcamp from Coderspace and Pazarama. The project uses the OMDb Film API to offer different functions and features..</p>
+
+
+## Technologies and Libraries
 - 👩‍💻 Programmatic Layout
 - 👩‍💻 UICollectionViewCompositionalLayout
 - 👩‍💻 Custom CollectionViewCell
